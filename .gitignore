@@ -1,0 +1,13 @@
+# Model checkpoints
+*.pth
+
+# Python/Jupyter folders
+*/__pycache__
+*/.ipynb_checkpoints
+
+# Test folder
+result/*
+test-experiment/*
+
+# Others
+AerialWaste3.0/*
