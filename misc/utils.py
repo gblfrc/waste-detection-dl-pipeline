@@ -14,7 +14,6 @@ import numpy as np
 import os
 import random
 import sys
-import telegram
 from PIL import Image
 from matplotlib import pyplot as plt
 from pytorch_grad_cam.utils.image import show_cam_on_image

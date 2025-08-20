@@ -1,0 +1,10 @@
+numpy
+matplotlib
+torch
+torcheval
+torchvision
+tqdm
+tensorboard
+grad-cam
+ipywidgets
+yacs

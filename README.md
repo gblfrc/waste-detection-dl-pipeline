@@ -2,7 +2,9 @@
 
 # A Deep Learning Pipeline for Solid Waste Detection in Remote Sensing Images
 
-<a href="https://arxiv.org/abs/2502.06607"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a> <br>
+<a href="https://arxiv.org/abs/2502.06607"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+[![CC BY 4.0][cc-by-shield]][cc-by]<br>
+
 ***Federico Gibellini, Piero Fraternali, Giacomo Boracchi, Luca Morandini, Thomas Martinoli, Andrea Diecidue, Simona Malegori***
 
 ![The proposed pipeline](figs/figure_pipeline_horizontal.png)
@@ -39,7 +41,7 @@ The weights for the following network and parameter configurations are available
 
 ***Note:*** *Metric values reported in this table might differ from the ones reported in the paper. Values in the paper are obtained averaging multiple experiments under the same parameter configuration to ensure independence from experiment seed and parameter initialization.*
 
-# Setup
+## Setup
 The code and the notebooks in this repository assume a specific folder structure to be run as-is, without changing the pre-set parameters. Assuming you have already cloned this repository, to align the folder to such structure:
 
 - Download from the official RSP [repository](https://github.com/ViTAE-Transformer/RSP/tree/main) the pretraining weights for ResNet-50 and Swin-T [1]. Then, create a `weights` folder inside `nets` and move the downloaded *.pth* files in the newly-created folder.
@@ -65,6 +67,21 @@ If you found our work or this repository useful, please cite us:
       url={https://arxiv.org/abs/2502.06607}, 
 }
 ```
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+<p align="center">
+  <a href="http://creativecommons.org/licenses/by/4.0/">
+    <img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="CC BY 4.0" />
+  </a>
+</p>
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
 
 ## References
 
